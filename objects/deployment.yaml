@@ -11,6 +11,6 @@ spec:
     spec:
       containers:
       - name: aggregator-service
-        image: eu.gcr.io/implementing-modern-devops/aggregator-service:3.0
+        image: eu.gcr.io/implementing-modern-devops/aggregator-service:1.0
         ports:
         - containerPort: 8080
