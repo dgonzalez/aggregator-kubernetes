@@ -1,13 +1,13 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  name: aggregator-bluegreen
+  name: aggregator-canary
 spec:
   replicas: 2
   template:
     metadata:
       labels:
-        app: aggregator-service-2.0
+        app: aggregator-service
     spec:
       containers:
       - name: aggregator-service
